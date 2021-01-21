@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>404 Page Not Found!!</title>
+        <title>404 Page Not Found</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
