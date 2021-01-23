@@ -17,12 +17,12 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.card}>
-          <h1>I have bad news for you</h1>
-          <p>
+          <div className={styles.subHeading1}>I have bad news for you</div>
+          <p className={styles.subHeading2}>
             The page you are looking for might be removed or is temporarily
             unavailable
           </p>
-          <button>Back to homepage</button>
+          <button className={styles.buttonBack}>Back to homepage</button>
         </div>
       </div>
 
